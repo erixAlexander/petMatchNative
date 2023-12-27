@@ -47,4 +47,4 @@ logs
 *.log.lock
 yarn.lock
 eas.json
-app.json
+# app.json

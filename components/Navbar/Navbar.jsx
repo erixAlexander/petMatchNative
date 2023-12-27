@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <View style={styles.container}>
-      <Image style={styles.img} source={require("../../assets/logo.png")} />
+      <Image style={styles.img} source={require("../../assets/icon.png")} />
       <View style={styles.btnContainer}>
         {auth.accessToken == null ? (
           <NavButtons
